@@ -1,15 +1,17 @@
 import sorting.BubbleSort;
 import sorting.InsertionSort;
+import sorting.MergeSort;
 import sorting.SelectionSort;
 
 public class Main {
 
     public static void main (String[] args) {
-        int[] arr = {5,4,6,2,1,7};
+        int[] arr = {7,5,9,1,2,4,3,8};
+        int[] arr1 = {2,4,3,8};
         System.out.println("Unsorted array");
         printArray(arr);
         System.out.println("Sorted array");
-        printArray(SelectionSort.selectionSort(arr));
+        printArray(MergeSort.mergeSort(arr, 0, arr.length-1));
     }
 
     public static void printArray(int[] arr) {

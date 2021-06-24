@@ -1,3 +1,4 @@
+import Recursion.PrintRecursive;
 import sorting.BubbleSort;
 import sorting.InsertionSort;
 import sorting.MergeSort;
@@ -10,8 +11,7 @@ public class Main {
         int[] arr1 = {2,4,3,8};
         System.out.println("Unsorted array");
         printArray(arr);
-        System.out.println("Sorted array");
-        printArray(MergeSort.mergeSort(arr, 0, arr.length-1));
+        //call function here
     }
 
     public static void printArray(int[] arr) {

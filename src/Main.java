@@ -1,4 +1,5 @@
 import Recursion.Factorial;
+import Recursion.PowerLinear;
 import Recursion.PrintRecursive;
 import sorting.BubbleSort;
 import sorting.InsertionSort;
@@ -13,7 +14,7 @@ public class Main {
         //System.out.println("Unsorted array");
         //printArray(arr);
         //call function here
-        System.out.println(Factorial.printFactorial(5));
+        System.out.println(PowerLinear.getPower(2,10));
     }
 
     public static void printArray(int[] arr) {

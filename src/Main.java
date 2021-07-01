@@ -1,6 +1,7 @@
 import Recursion.Factorial;
 import Recursion.PowerLinear;
 import Recursion.PrintRecursive;
+import Recursion.TowerOfHanoi;
 import sorting.BubbleSort;
 import sorting.InsertionSort;
 import sorting.MergeSort;
@@ -11,10 +12,7 @@ public class Main {
     public static void main (String[] args) {
         int[] arr = {7,5,9,1,2,4,3,8};
         int[] arr1 = {2,4,3,8};
-        //System.out.println("Unsorted array");
-        //printArray(arr);
-        //call function here
-        System.out.println(PowerLinear.getPower(2,10));
+        System.out.println();
     }
 
     public static void printArray(int[] arr) {

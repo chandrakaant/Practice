@@ -26,4 +26,21 @@ public class PrintRecursive {
         pdi(i-1);
         System.out.println(i);
     }
+
+    public static void printArrayUsingRecursionReverse(int[] arr, int index) {
+        if (index < 0) {
+            return;
+        }
+        System.out.println(arr[index]);
+        printArrayUsingRecursionReverse(arr, index-1);
+    }
+
+    public static void printArrayUsingRecursion(int[] arr, int index) {
+        if (index == arr.length) {
+            return;
+        }
+        System.out.println(arr[index]);
+        printArrayUsingRecursion(arr, index+1);
+    }
+
 }

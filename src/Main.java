@@ -1,18 +1,14 @@
-import Recursion.Factorial;
-import Recursion.PowerLinear;
 import Recursion.PrintRecursive;
-import Recursion.TowerOfHanoi;
-import sorting.BubbleSort;
-import sorting.InsertionSort;
-import sorting.MergeSort;
-import sorting.SelectionSort;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
     public static void main (String[] args) {
-        int[] arr = {7,5,9,1,2,4,3,8};
+        int[] arr = {7,5,9,1,2,4,3,8,5};
         int[] arr1 = {2,4,3,8};
-        System.out.println();
+        printArray(PrintRecursive.allOccurrence(arr, 5, 0, 0));
     }
 
     public static void printArray(int[] arr) {

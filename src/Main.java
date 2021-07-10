@@ -1,19 +1,21 @@
-import Recursion.PrintRecursive;
+import Recursion.KeyBoardSequence;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
 
     public static void main (String[] args) {
         int[] arr = {7,5,9,1,2,4,3,8,5};
         int[] arr1 = {2,4,3,8};
-        printArray(PrintRecursive.allOccurrence(arr, 5, 0, 0));
+        String str = "12305";
+        System.out.println(KeyBoardSequence.keySeq(str));
+        //printArray(StringSubsequence.getSubsequences("abc").toArray());
     }
 
-    public static void printArray(int[] arr) {
+    public static void printArray(Object[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]);
+            System.out.println(arr[i]);
         }
         System.out.println("");
     }
